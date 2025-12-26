@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+#The dataset that was used for this project is the Mall_Customers.csv.
+#The data is present https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazhybHlXUndtejV3b1BjUUdkWUIySXFqMWp3UXxBQ3Jtc0ttZGRNdWoxb0lBcFZqZHlKTnJHNC1GUS1GTTRhdXdlRnFTZk9NVWktc21tZDBwQmJucFpDTEZvX1FRSl9HVHJFc2ZPYUJ4RVRyS0tnRnh3QzRlREI5ZnVRX1NlNzQ0WDVkT0RHMlYtamREZVpVVG9sSQ&q=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fvjchoudhary7%2Fcustomer-segmentation-tutorial-in-python%2Fdata&v=p8arik6ZyyI
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -142,4 +145,5 @@ plt.scatter(centers[:, 0], centers[:,1], c = 'red', s = 200, alpha=0.75, marker 
 plt.xlabel('Age')
 plt.ylabel('Spending Score')
 plt.title('Customer Segments')
+
 plt.show()
